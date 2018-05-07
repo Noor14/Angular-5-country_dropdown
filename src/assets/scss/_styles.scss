@@ -1,0 +1,47 @@
+@import './_variables';
+@import './_helpers';
+@import './_base';
+@import './_responsives';
+
+
+.svg-icon 
+{
+    width: 20px;
+    float: left;
+    margin-right: 10px;
+}
+
+.icon-cargo-ship,
+.truck-icon,
+.block-icon-svg,
+.fire-icon,
+.star-icon-svg
+{
+    float: left;
+    margin-right: 5px;
+    margin-top: -2px;
+}
+
+.btn-secondary
+{
+    background-color: #02bdb6;
+    color: #fff !important;
+}
+a{
+    text-decoration: none;
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+
+.form-control
+{
+    font-size: $base-font-size;
+    &:focus{
+        box-shadow: 0px 0px 0px 0px;
+        border-color: $secondary-color;
+        
+    }
+}
+

@@ -1,0 +1,580 @@
+
+
+/*==============  Responsive Media Queries ====================*/
+
+
+
+/*-- using for Initiative Detail Page --*/
+
+$FullHDlargeDesktop: "(min-width: 1601px)";  /* (1920x1080) Full HD Display */
+$extralargeDesktop: "(max-width: 1600px)";  /* (1600x900) HD+ Display */
+$largeDesktop: "(max-width: 1440px)";
+$mediumDesktop: "(max-width: 1366px)";
+$smallDesktop: "(max-width: 1280px)";
+$tablet: "(max-width: 991px)";
+$tablet-1024: "(max-width: 1024px)";
+$mobile: "(max-width: 768px)";
+$smallMob: "(max-width: 480px)";
+$smallMob-360: "(max-width: 360px)";
+
+
+/*-- using for Initiative Detail Page --*/
+
+
+
+/*==============  Extra Large Desktop 1920x1080 Full HD Display ====================*/
+@media #{$FullHDlargeDesktop}
+{
+
+    .main-container-box
+    {                             
+        width: 78.6% !important;
+        right: 17.6% !important;
+
+
+        .custom-tabs{
+            .nav-item{
+                .nav-link{
+                   // padding: 27px;
+                    font-size: $base-font-size + 1;
+                    img {
+                        margin-right: auto;
+                    }
+                }
+            }
+            .subcategory{
+                
+                    .nav-item{
+                        .nav-link.active{
+                            
+                                background: #22364a !important;
+                            
+                        }    
+                        .nav-link{
+                            font-weight: normal;
+                            
+                        }                    
+                    }
+                
+            }
+        }
+    }
+
+}
+/*==============  Large Desktop 1600x900 HD+ Display ====================*/
+@media #{$extralargeDesktop}
+{
+
+    .main-container-box
+    {                             
+        width: 75% !important;
+        right: 19.2% !important;
+
+
+        .custom-tabs{
+            .nav-item{
+                .nav-link{
+                  //  padding: 27px;
+                   font-size: $base-font-size + 1;
+                    img {
+                        margin-right: auto;
+                    }
+                }
+            }
+            .subcategory{
+                
+                    .nav-item{
+                        .nav-link.active{
+                            
+                                background: #22364a !important;
+                            
+                        }    
+                        .nav-link{
+                            font-weight: normal;
+                            
+                        }                    
+                    }
+                
+            }
+        }
+    }
+    .main-banner-tabs{
+        top: 149px !important;
+        right: 5.5% !important;        
+    
+        .banner-tabs{
+            width: 192px !important;
+            height: 312px !important;
+    
+            .v-btn{
+                width: 200px !important;
+                height: 65px !important;                
+                top: 17px !important;
+                font-size: $base-font-size + 1 !important;
+                font-weight: $font-weight-normal !important;
+                border: 0px solid #aeaeae !important;
+                left: -26px !important;
+            }
+            .v-btn:hover{
+                left: -20px !important;
+            }
+        }
+      }
+
+
+}
+
+/*==============  Large Desktop 1440 ====================*/
+
+
+
+@media #{$largeDesktop}
+{
+
+
+.container
+{
+    padding: 0px 80px 0 80px;
+}
+    
+
+/*===============HomePage Shipping Section=================*/
+
+.main-banner-tabs{
+    top: 138px !important;
+
+    .banner-tabs{
+        width: 172px !important;
+        height: 282px !important;
+
+        .v-btn{
+            width: 182px !important;
+            height: 58px !important;
+            font-size: $base-font-size !important;
+            top: 15px !important;
+        }
+    }
+  }
+.main-container-box
+    {                             
+        width: 74.6% !important;
+        right: 19.3% !important;
+
+        .custom-tabs-right {
+            .nav-pills{
+                li {
+                    .nav-link{
+                        font-size: $base-font-size + 1;            
+                    }
+                }
+            }
+        }
+        .container-tabs {
+            .container-boxes{
+                height: 150px;
+
+                img {
+                    margin: 0 auto;
+                    &.ContainerImg20 {
+                        width: 90px;
+                    }
+                    &.ContainerImg40 {
+                        width: 90px;
+                    }
+                    &.ContainerImg45 {
+                        width: 90px;
+                    }
+                }
+            }
+        }
+        .custom-tabs{
+            .nav-item{
+                .nav-link{
+                    padding: 11px 14px !important;
+                }
+            }
+            .subcategory{
+                
+                    .nav-item{
+                        .nav-link.active{
+                            
+                                background: #22364a !important;
+                            
+                        }    
+                        .nav-link{
+                            padding: 11px !important;
+                        }                    
+                    }
+                
+            }
+        }   
+    }
+    
+/*-- Search Result Page --*/
+
+
+.inner-page-right-content-area 
+{
+    // padding: 0;
+
+    .shipping-panel
+    {
+        .card-body
+        {
+            padding:25px 12px;
+            
+            .shipping-price-section
+            {
+                padding: 0 8px;
+        
+                .col-sm-12
+                {
+                    padding: 0 0px;
+                    
+                    .price-main
+                    {
+                        .price
+                        {
+                            font-size: 22px;
+                        }
+                    }
+        
+                    a.price-breakdown
+                    {
+                        padding-left: 10px;
+                        font-size: 8px;
+                    }
+        
+                    .bookNow
+                    {
+                        padding: 0px;
+                    }
+                } 
+                
+            }
+        }
+    }
+
+
+
+    // Search Route
+
+    .search-routes-main
+    {
+      .router-box
+      {
+        max-width: 38%;
+      }
+
+      .router-steps
+      {
+        min-width: 24% !important;
+        padding: 0px 12px !important;
+      }
+    }
+
+}
+    /*-- Search Result Page --*/
+
+}
+
+
+
+
+/*==============  Medium Desktop max-width: 1366px ====================*/
+@media #{$mediumDesktop}
+{
+
+  
+  .main-container-box
+  {   
+    width: 74.6% !important;
+    right: 19.3% !important;
+
+    .container-tabs {
+        .container-boxes{
+            height: 122px;
+
+            img {
+                margin: 0 auto;
+                &.ContainerImg20 {
+                    width: 74px;
+                }
+                &.ContainerImg40 {
+                    width: 74px;
+                }
+                &.ContainerImg45 {
+                    width: 74px;
+                }
+            }
+        }
+    }
+    
+    
+        .custom-tabs{
+            .subcategory{
+                
+                    .nav-item{
+                        .nav-link.active{
+                            
+                                background: #22364a !important;
+                            
+                        }
+                    }
+                
+            }
+        }
+        
+
+    
+  }
+  .main-banner-tabs{
+    top: 129px !important;
+
+    .banner-tabs{
+        width: 162px !important;
+        height: 267px !important;
+
+        .v-btn{
+            width: 172px !important;
+            height: 55px !important;
+            font-size: $base-font-size !important;
+            top: 15px !important;
+        }
+    }
+  }
+
+
+}
+/*========END======  Medium Desktop max-width: 1366px ====================*/
+
+
+/*==============  Desktop max-width: 1280px ====================*/
+
+
+
+@media #{$smallDesktop}
+{
+
+  body
+  {
+    .container
+    {
+      width: 100%;
+      padding: 0px 40px 0 40px ;
+      max-width: 100%;
+    }
+  }
+
+  /*===============HomePage Shipping Section=================*/
+ 
+  .main-container-box
+  {  
+    width: 74.6% !important;
+    right: 20.3% !important;
+    
+    .container-tabs {
+        .justify-content-start {
+            .nav-item{
+                .nav-link {
+                    padding: 6px !important;
+                }
+            }                      
+
+        }
+
+        .delivery-info{
+            width: 73%;
+
+            .form-control{
+                height: 44px;
+            }
+        }
+        .nav-tabs {
+            .nav-item {
+                .nav-link{
+                    padding: 8px 25px;
+                }
+            }
+        }
+        
+        
+        .container-boxes{
+            height: 134px;
+            width: 19.4%;
+
+            img {
+                margin: 0 auto;
+                &.ContainerImg20 {
+                    width: 74px;
+                }
+                &.ContainerImg40 {
+                    width: 74px;
+                }
+                &.ContainerImg45 {
+                    width: 74px;
+                }
+            }
+        }
+    }
+    
+    
+        .custom-tabs{
+            .nav-item{
+                .nav-link{
+                    padding: 11px 6px !important;
+                }
+            }
+            .subcategory{
+                
+                    .nav-item{
+                        .nav-link.active{
+                            
+                                background: #22364a !important;
+                            
+                        }    
+                        .nav-link{
+                            padding: 10px !important;
+                        }                    
+                    }
+                
+            }
+        }       
+
+    
+  }
+  .main-banner-tabs{
+    top: 129px !important;
+
+    .banner-tabs{
+        width: 162px !important;
+        height: 267px !important;
+
+        .v-btn{
+            width: 172px !important;
+            height: 55px !important;
+            font-size: $base-font-size !important;
+            top: 15px !important;
+        }
+    }
+  }
+  
+
+}
+/*===========END===  Large Desktop max-width: 1280px ==================*/
+
+/*==============  Tablet max-width:1024px ====================*/
+@media #{$tablet-1024}
+{
+    
+    /*===============HomePage Shipping Section=================*/
+    .main-container-box
+    {        
+        width: 71.6% !important;
+        right: 25% !important;                  
+    }
+    .main-banner-tabs{
+        top: 70px !important;
+    
+        .banner-tabs{
+            width: 162px !important;
+            height: 267px !important;
+    
+            .v-btn{
+                width: 172px !important;
+                height: 55px !important;
+                font-size: $base-font-size !important;
+                top: 15px !important;
+            }
+        }
+      }
+    .bannerSection{
+        .main-banner-tabs{
+            .banner-tabs{
+                .v-btn{
+                    font-size: $base-font-size + 1 !important;
+                }
+                .v-btn:active{
+                    color: $btn-default-sky-blue;
+                }
+            }
+        }
+        
+        .custom-tabs { 
+           
+            .custom-col-10{
+                max-height: 430px;
+                overflow-y: scroll;
+            }
+            
+            .nav-tabs {            
+                .nav-item {
+                    width: auto !important;
+                    .nav-link{
+                        padding: 5px 5px  !important;
+                    }
+                }
+            }
+        }
+        
+        .custom-tabs-right {
+            padding: 0 5px 0 0 !important;
+            z-index: 9;
+            .nav-pills {
+                li {
+                    a.nav-link{
+                        padding: 10px 8px !important;
+                        font-size: $base-font-size - 1 !important;
+
+                        img {
+                            width: 52px;
+                        }
+                    }
+                }
+            }
+
+        }
+        
+        .container-tabs{
+            .nav-tabs {
+                .nav-item {
+                    width: 80px !important;
+                }
+            }
+            .container-boxes {
+                width: 24% !important;
+                margin: 3px 3px !important;
+
+                img{
+                    max-width: 80px;
+                }
+            }
+            .search{
+                .btn{
+                    width: 40% !important   ;
+                }
+            }
+            .dropdown-pickup {
+                .dropdown-menu {
+                    .pickup-options {
+                        li{
+                            padding-left: 50px;
+                            a{
+                                font-size: $base-font-size + 1 !important;
+                            font-weight: $font-weight-normal;
+                            }
+                        }
+
+                    }
+                }
+            }
+
+        }
+    }
+    
+}
+
+
+
+
+/*==============  Responsive Media Queries ====================*/

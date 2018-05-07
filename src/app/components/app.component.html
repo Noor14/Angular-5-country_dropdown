@@ -1,0 +1,10 @@
+<form [formGroup]="form">
+    <select placeholder="Select cities" formControlName="city" [(ngModel)]="name" (change)="getcountry(name)">
+    <option *ngFor="let obj of cities" [value]="obj.name" >{{obj.name}}</option>
+</select>
+
+<select placeholder="Select Country"  formControlName="country">
+    <option *ngFor="let obj of countries" [selected]="(ind && obj.name == ind.name)? true : false">{{obj.country}}</option>
+</select>
+
+</form>

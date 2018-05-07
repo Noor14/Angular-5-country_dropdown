@@ -1,0 +1,225 @@
+<div class="user-modal animated fadeIn">
+    <div class="modal-header">
+      <h4 class="user-modal-title">Create Your New Account!</h4>
+
+      <a href="javascript:;" class="have-an-account">
+        <span class="already-account">
+            Already Have An Account 
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+          </span>
+      </a>
+      <!-- <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+          <span aria-hidden="true">&times;</span>
+        </button> -->
+    </div>
+    <div class="modal-body">
+      <div class="tabs-section">
+
+        <div class="tabs-label">
+          <label class="text-transform account-type-title">Select Your Account Type</label>
+        </div>
+        <ngb-tabset [justify]="currentJustify">
+          <ngb-tab>
+            <ng-template ngbTabTitle>
+              <svg id="2771e574-2d09-4aba-b5bd-49e61b7f0a16" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                width="25px">
+                      <defs>
+                        <style>
+                          .\34 564af40-94b0-4cf1-8c08-648f046447c0 {
+                            fill: #738593;
+                          }
+                        </style>
+                      </defs>
+                      <title>Icons</title>
+                      <g id="52a0f7ba-4810-466a-b1e0-a0e9404824d8" data-name="user">
+                        <path class="4564af40-94b0-4cf1-8c08-648f046447c0" d="M9,14h6a6,6,0,0,1,6,5.923A12,12,0,1,0,3,19.923,6,6,0,0,1,9,14ZM12,4A4,4,0,1,1,8,8,4,4,0,0,1,12,4Z"/>
+                      </g>
+                    </svg> INDIVIDUAL
+            </ng-template>
+            <ng-template ngbTabContent>
+              <form class="form-component">
+                <!-- input row -->
+                <div class="row form-group">
+                  <div class="col">
+                    <label>First Name</label>
+                    <input type="text" class="form-control" placeholder="Your first name">
+                  </div>
+                  <div class="col">
+                    <label>Last Name</label>
+                    <input type="text" class="form-control" placeholder="Your last name">
+                  </div>
+                </div>
+                <!--/ input row -->
+
+                <!-- input row -->
+                <div class="row form-group">
+                  <div class="col icon-input">
+                    <label>City</label>
+                    <div class="input-group-prepend">
+                      <div class="input-group-text"><img src="../../../../assets/images/icons/flags/4x3/ae.svg" width="22px"></div>
+                      <input type="text" class="form-control" placeholder="Your first name">
+                    </div>
+                  </div>
+                  <div class="col icon-input">
+                    <label>Contact</label>
+                    <div class="input-group-prepend">
+                      <div class="input-group-text"><img src="../../../../assets/images/icons/flags/4x3/ae.svg" width="22px"></div>
+                      <select class="number-select">
+                                <option>+971</option>
+                              </select>
+                      <input type="text" class="form-control" placeholder="123456789">
+                    </div>
+                  </div>
+                </div>
+                <!--/ input row -->
+
+                <!-- input row -->
+                <div class="row form-group">
+                  <div class="col">
+                    <label>Email</label>
+                    <input type="text" class="form-control" placeholder="jhon@company.com">
+                  </div>
+                  <div class="col password">
+                    <label>Password</label>
+                    <i class="fa fa-eye" aria-hidden="true"></i>
+                    <input type="text" class="form-control" placeholder="Enter your unique password">
+                  </div>
+                </div>
+                <!--/ input row -->
+
+                <!-- input row -->
+                <div class="row form-group">
+                  <div class="col">
+                    <label>Company Name</label>
+                    <input type="text" class="form-control" placeholder="Your compnay name">
+                  </div>
+                  <div class="col">
+                    <label>How did you hear about us?</label>
+                    <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref" class="form-control">
+                              <option selected>Choose...</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                  </div>
+                </div>
+                <!--/ input row -->
+
+
+
+                <!-- input row -->
+                <div class="form-group">
+                  <div class="terms-condition">
+                    <label class="switch">
+                            <input id="flexible-toggle" type="checkbox" checked="checked">
+                            <span class="slider"></span></label>
+                    <span class="termCondition">I agree to the Terms and Conditions</span>
+                    <button class="btn btn-default pull-right hvr-ripple-out">Create Account</button>
+                  </div>
+
+
+                </div>
+                <!--/ input row -->
+              </form>
+            </ng-template>
+          </ngb-tab>
+          <ngb-tab>
+            <ng-template ngbTabTitle>
+              <svg id="81c835b1-2593-4425-bc14-547dc07e1484" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                width="20px">
+                        <defs>
+                          <style>
+                            .d7ef9b3a-c716-481d-87a3-42203215455a {
+                              fill: #738593;
+                            }
+                            .b28b3d66-d9dc-4a79-a6c3-9b8b629bcc82 {
+                              fill: #fff;
+                            }
+                          </style>
+                        </defs>
+                        <g>
+                          <rect class="d7ef9b3a-c716-481d-87a3-42203215455a" y="6" width="10" height="18"/>
+                          <path class="d7ef9b3a-c716-481d-87a3-42203215455a" d="M24,24H8V0H24ZM10,22H22V2H10Z"/>
+                          <rect class="b28b3d66-d9dc-4a79-a6c3-9b8b629bcc82" x="2" y="9" width="5" height="2"/>
+                          <rect class="b28b3d66-d9dc-4a79-a6c3-9b8b629bcc82" x="2" y="14" width="5" height="2"/>
+                          <rect class="b28b3d66-d9dc-4a79-a6c3-9b8b629bcc82" x="2" y="19" width="5" height="2"/>
+                          <rect class="d7ef9b3a-c716-481d-87a3-42203215455a" x="17" y="4.5" width="3" height="3"/>
+                          <rect class="d7ef9b3a-c716-481d-87a3-42203215455a" x="12" y="9.5" width="3" height="3"/>
+                          <rect class="d7ef9b3a-c716-481d-87a3-42203215455a" x="17" y="9.5" width="3" height="3"/>
+                          <rect class="d7ef9b3a-c716-481d-87a3-42203215455a" x="12" y="14.5" width="3" height="3"/>
+                          <rect class="d7ef9b3a-c716-481d-87a3-42203215455a" x="17" y="14.5" width="3" height="3"/>
+                        </g>
+                      </svg>
+              <!-- <img src="../../../../assets/images/icons/Icons_Corporate.svg" alt="icon" width="22px" style="float:left;" /> -->
+              CORPORATE
+            </ng-template>
+            <ng-template ngbTabTitle><b>Fancy</b> title</ng-template>
+            <ng-template ngbTabContent>
+              <form class="form-component">
+                <!-- input row -->
+                <div class="row form-group">
+                  <div class="col">
+                    <label>First Name</label>
+                    <input type="text" class="form-control" placeholder="Your first name">
+                  </div>
+                  <div class="col">
+                    <label>Last Name</label>
+                    <input type="text" class="form-control" placeholder="Your last name">
+                  </div>
+                </div>
+                <!--/ input row -->
+
+                <!-- input row -->
+                <div class="row form-group">
+                  <div class="col icon-input">
+                    <label>City</label>
+                    <div class="input-group-prepend">
+                      <div class="input-group-text"><img src="../../../../assets/images/icons/flags/4x3/ae.svg" width="22px"></div>
+                      <input type="text" class="form-control" placeholder="Your first name">
+                    </div>
+                  </div>
+                  <div class="col">
+                    <label>Contact</label>
+                    <input type="text" class="form-control" placeholder="Your last name">
+                  </div>
+                </div>
+                <!--/ input row -->
+
+                <!-- input row -->
+                <div class="row form-group">
+                  <div class="col">
+                    <label>Email</label>
+                    <input type="text" class="form-control" placeholder="jhon@company.com">
+                  </div>
+                  <div class="col">
+                    <label>Password</label>
+                    <input type="text" class="form-control" placeholder="Enter your unique password">
+                  </div>
+                </div>
+                <!--/ input row -->
+
+                <!-- input row -->
+                <div class="row form-group">
+                  <div class="col">
+                    <label>Company Name</label>
+                    <input type="text" class="form-control" placeholder="Your compnay name">
+                  </div>
+                  <div class="col">
+                    <label>How did you hear about us?</label>
+                    <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref" class="form-control">
+                                 <option selected>Social Media</option>
+                                 <option value="1">One</option>
+                                 <option value="2">Two</option>
+                                 <option value="3">Three</option>
+                               </select>
+                  </div>
+                </div>
+                <!--/ input row -->
+              </form>
+            </ng-template>
+          </ngb-tab>
+        </ngb-tabset>
+      </div>
+    </div>
+    
+  </div>
